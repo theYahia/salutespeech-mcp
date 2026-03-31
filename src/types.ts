@@ -13,3 +13,9 @@ export interface SynthesisResponse {
   data: Buffer;
   contentType: string;
 }
+
+export interface SaluteModel {
+  name: string;
+  sample_rate: number;
+  languages: string[];
+}
