@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "salutespeech": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/salutespeech-mcp"],
+      "env": {
+        "SALUTE_AUTH_KEY": ""
+      }
+    }
+  }
+}
