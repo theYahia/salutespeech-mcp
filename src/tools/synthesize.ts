@@ -2,9 +2,9 @@ import { z } from "zod";
 import { salutePost } from "../client.js";
 
 export const synthesizeSpeechSchema = z.object({
-  text: z.string().describe("Текст для синтеза речи"),
-  voice: z.string().default("Nec_24000").describe("Голос синтеза (Nec_24000, Bys_24000, May_24000, Tur_24000, Ost_24000, Pon_24000)"),
-  format: z.string().default("opus").describe("Формат аудио (opus, wav16, pcm16)"),
+  text: z.string().describe("Text to synthesize into speech"),
+  voice: z.string().default("Nec_24000").describe("Voice: Nec_24000, Bys_24000, May_24000, Tur_24000, Ost_24000, Pon_24000"),
+  format: z.string().default("opus").describe("Audio format: opus, wav16, pcm16"),
 });
 
 export async function handleSynthesizeSpeech(params: z.infer<typeof synthesizeSpeechSchema>): Promise<string> {
