@@ -1,3 +1,5 @@
+> 📦 Part of **[WWmcp — Emerging Markets MCP](https://github.com/theYahia/WWmcp)** — 114 MCP servers for non-Western APIs (Brazil/MENA/Gulf/SE Asia/Africa/CIS).
+
 # @theyahia/salutespeech-mcp
 
 MCP server for Sber SaluteSpeech API — speech recognition (STT) and synthesis (TTS). **5 tools.**
@@ -73,6 +75,19 @@ Synthesize "Hello world" with voice Bys_24000 in wav16 format
 List available voices
 ```
 
+## 🚀 Demo prompts
+
+> **Use case (RU):** "Распознай речь из файла call_log.wav, верни текст с тайм-кодами"
+
+🤖 **Pairs well with:**
+- [`@theyahia/yandex-speechkit-mcp`](https://github.com/theYahia/yandex-speechkit-mcp)
+- [`@theyahia/gigachat-mcp`](https://github.com/theYahia/gigachat-mcp)
+- [`@theyahia/yandexgpt-mcp`](https://github.com/theYahia/yandexgpt-mcp)
+
 ## License
 
 MIT
+
+---
+
+⭐ **Star if you build with SaluteSpeech** — helps other devs find this server.
